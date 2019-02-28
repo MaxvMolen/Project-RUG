@@ -10,8 +10,8 @@ public class InsertData : MonoBehaviour {
     // indicate if the data has been send
     public bool send = false;
     // used to get the requered php for sending or updating the answers.
-    private string PostUserURL = "http://languagelabgames.webhosting.rug.nl/taalgame/user.php?"; // insert name and age
-    private string PostAnswersURL = "http://languagelabgames.webhosting.rug.nl/taalgame/answers.php?"; // insert/update answers
+    private string PostUserURL = "https://www.google.nl/"; // insert name and age
+    private string PostAnswersURL = "https://www.google.nl/"; // insert/update answers
 
     // set the data you want to sent in the stages script
     // will only send data if conditions are met
